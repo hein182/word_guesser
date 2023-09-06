@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Guesser</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <main>
+        <h1>Guess the word!</h1>
+        <div class="container">
+          <image id="img" src="images/hang0.png" alt="hangman">
+          <button id="menu" onclick="reset()">Start Over</button>
+        </div>
+        <h3 id="guess_check"></h3>
+        <div class="container2">
+          <div id="menu2">
+            <p>Put either a word or letter to guess the word:</p>
+            <div id="align">
+              <textarea id="input" name="Put text here!" rows="1" cols="21"></textarea>
+              <button id="enter" onclick="check()">Enter</button>
+            </div>
+          </div>
+        </div>
+    </main>
+	<script src="index.js"></script>
+  </body>
+</html>

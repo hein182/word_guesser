@@ -1,0 +1,71 @@
+
+body{
+    text-align: center;
+    background-color:whitesmoke;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+    font-size: 30px;
+}
+
+#menu2 {
+    justify-content: center;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    color:white;
+    width: 480px;
+    
+}
+
+#img {
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+#guess_check {
+    letter-spacing: 10px;
+    color:darkgreen;
+}
+
+#enter, #menu {
+    border: none;
+    border-radius: 10px;
+    background-color: olivedrab;
+    color: white;
+    border: solid 1px white;
+}
+
+#input  {
+    margin-top: 5px;
+}
+
+#enter {
+    font-size: 20px;
+    margin-top: 4px;
+    margin-left: 8px;
+}
+
+#align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
