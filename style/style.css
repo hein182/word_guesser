@@ -64,8 +64,16 @@ body{
     margin-left: 8px;
 }
 
+#enter:hover, #menu:hover {
+    background-color: green;
+}
+
 #align {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#used_words {
+    color: red;
 }
